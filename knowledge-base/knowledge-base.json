@@ -1,0 +1,104 @@
+[
+    {
+        "id": "dedicated",
+        "title": "Dedicated Servers (Dedicated / Bare Metal)",
+        "keywords": [],
+        "content": "Dedicated servers are located in data centers in Germany and Finland (provider Hetzner). Plan BARE-METAL-HETZNER: $39.00/month.\nManagement via WHMCS: status, traffic, reboot, Wake-on-LAN, OS reinstallation, Firewall, PTR records, Rescue mode — all without contacting support.\nProvider Hetzner, Auction lineup."
+    },
+    {
+        "id": "game_access",
+        "title": "Access to the Pterodactyl Game Panel",
+        "keywords": [],
+        "content": "Pterodactyl panel: https://panel.apexnodes.xyz\nLogin: billing email. Password: sent by email upon first purchase.\nIf the password is lost or not received (happens often): go to Billing → Service Details → \"Change Password\" button — a new password will be set for the panel.\nCheck the Spam folder in your email!\nDatabases: phpMyAdmin — https://pma.apexnodes.xyz. Connection details (host, login, password) are in the Databases tab of the server panel."
+    },
+    {
+        "id": "game_free",
+        "title": "Free Game Servers (Game Free)",
+        "keywords": [],
+        "content": "GAME-FREE plan: for testing and learning. 100% CPU, 8GB RAM, 4GB SSD, 3 databases, 0 backups, 3 ports. Price: $0.\nHardware: heavily loaded Intel Xeon nodes, DDR3, SSD. Stability is NOT guaranteed.\nIf the console is unresponsive or the server frequently crashes or freezes — this is due to constant overload of free nodes. We recommend advising the customer to purchase paid Game or Game Premium plans for normal operation without interruptions.\nTechnical support is NOT provided for free servers (we do not change the startup command or fix errors).\nThey may be deleted if not powered on for several months — make backups!\nYou cannot judge ApexNodes quality by a free server.\nUnlike Aternos — we have NO queues and NO time limits.\nWants a fair test — ESCALATE, we will provide a proper test server."
+    },
+    {
+        "id": "game_premium",
+        "title": "Game Premium Servers (Moscow)",
+        "keywords": [],
+        "content": "Premium servers in Moscow. Accessible from various countries, including Ukraine.\nHardware: AMD Ryzen 9 7950X / 7900X, DDR5, NVMe.\nPterodactyl panel: https://panel.apexnodes.xyz (login and functions are the same as regular).\nPlans (USD/month): GAME-PREMIUM-1 ($1.05, 50% CPU, 1GB, 10GB); GAME-PREMIUM-2 ($2.10, 75%, 2GB, 20GB); GAME-PREMIUM-3 ($4.30, 150%, 4GB, 40GB); GAME-PREMIUM-4 ($7.00, 300%, 8GB, 80GB); GAME-PREMIUM-5 ($11.10, 450%, 12GB, 120GB); GAME-PREMIUM-6 ($14.00, 600%, 16GB, 160GB); GAME-PREMIUM-7 ($18.00, 750%, 20GB, 200GB); GAME-PREMIUM-8 ($22.00, 900%, 24GB, 240GB); GAME-PREMIUM-9 ($25.00, 1050%, 28GB, 280GB); GAME-PREMIUM-10 ($29.00, 1200%, 32GB, 320GB).\nIf the client wants to test — ESCALATE, we will provide a temporary test server."
+    },
+    {
+        "id": "game_regular",
+        "title": "Game Servers (Poland)",
+        "keywords": [],
+        "content": "Regular game servers in Warsaw (Poland). Pterodactyl panel: https://panel.apexnodes.xyz\nHardware: AMD Ryzen 7 3700X, DDR4, NVMe. Nodes: g-pl-1..4.apexnodes.xyz.\nEach plan includes 10 backups, 10 ports, and 10 databases. Need more — we'll increase them for free, open a ticket.\nSwap is used minimally for OS stability.\nPlans (USD/month): GAME-1 ($0.53, 50% CPU, 1GB RAM, 10GB); GAME-2 ($1.05, 75%, 2GB, 20GB); GAME-3 ($2.15, 150%, 4GB, 40GB); GAME-4 ($3.50, 300%, 8GB, 80GB); GAME-5 ($5.55, 450%, 12GB, 120GB); GAME-6 ($7.00, 600%, 16GB, 160GB); GAME-7 ($9.00, 750%, 20GB, 200GB); GAME-8 ($11.00, 900%, 24GB, 240GB); GAME-9 ($12.50, 1050%, 28GB, 280GB); GAME-10 ($14.50, 1200%, 32GB, 320GB).\nIn the panel they may be displayed as GAME-LC-1, etc. — these are the same plans."
+    },
+    {
+        "id": "game_technical",
+        "title": "Technical Operations with Game Servers",
+        "keywords": [],
+        "content": "Changing game/core or reinstalling:\n1. Go to the Server Panel → Settings section, CHANGE EGG block. Select the desired core and click Apply.\n2. Enable the \"CHANGE STARTUP COMMAND\" and \"REINSTALL SERVER\" options. If you are changing the game or the server is completely new — enable \"WIPE SERVER FILES\" (warning: this will delete all files!). Click the Change Egg button.\n3. Wait for the process to complete (about a minute); the server is ready to use.\nChanging version (e.g., Minecraft 1.16.5): Go to Startup and specify the desired version. Then in Files delete all current files. After that, in Settings click REINSTALL SERVER — the core for the selected version will be downloaded automatically.\nFree subdomains for Minecraft: *.20tps.monster or *.anti-ddos.site — Subdomains section.\nPlugins: Plugins section (for supported cores). Mods: Mods section (for corresponding cores).\nWhat is a server link: https://wiki.apexnodes.xyz/igrovye-tarify/chto-takoe-ssylka-na-server\nNode specifications: https://wiki-apexnodes.xyz/igrovye-tarify/kharakteristiki-uzlov-i-ikh-ip-adresa"
+    },
+    {
+        "id": "general",
+        "title": "About ApexNodes",
+        "keywords": [],
+        "content": "ApexNodes is a hosting provider since 2020. Own autonomous system AS202831.\nLocations: Russia (Moscow), Poland (Warsaw, OVH).\nServices: VDS (PROMO / HI-CPU), game servers (Game / Game Premium / Game Free), web hosting, script hosting, dedicated servers, IP Transit, Colocation.\nPanels: Pterodactyl (game/scripts), SolusVM (VDS), ISPmanager (web hosting).\nDDoS protection is available at all locations."
+    },
+    {
+        "id": "network",
+        "title": "Network Infrastructure",
+        "keywords": [],
+        "content": "Own AS202831 — full control over routes.\nRussia: backbone INETCOM + GLOBALNET, fiber into MMTS-9. Minimum ping.\nPoland: OVH, Warsaw. Stable European ping.\nDDoS protection: real-time filtering, mitigation of L4 attacks.\nMinimum hops thanks to direct connection to IX.\nAvailability: Russia — accessible from all countries. Poland — there may be issues due to TSPU/Roskomnadzor. Recommend Russia location if critical."
+    },
+    {
+        "id": "payment",
+        "title": "Payment Methods",
+        "keywords": [],
+        "content": "Russian cards and SBP: LAVA.ru gateway.\nUkrainian cards: Monobank P2P.\nBelarus: payment is available via the Oplati service (https://www.o-plati.by/). You need to download the mobile app, complete online registration via MCI. Top up the wallet balance (via ERIP, bank card, or Belinvestbank terminal). After topping up, create an invoice with payment via LAVA.ru, on the payment system page select SBP and scan the QR code using the Oplati app.\nCryptocurrency: Cryptobot or Heleket.\nAlternative: LZT Market (via Lolzteam).\nIf the required method is unavailable or there is an error: politely ask \"Please tell me which bank/country card you are trying to pay with?\" and IMMEDIATELY [ESCALATE].\nAll questions like \"payment did not go through\" or \"invoice error\" — always [ESCALATE]."
+    },
+    {
+        "id": "rules_contacts",
+        "title": "Rules, Deletion, and Social Media",
+        "keywords": [],
+        "content": "If unpaid: service is suspended, after 3 days it is deleted FOREVER.\nSocial media: Telegram — https://t.me/apexnodescis; VK — https://vk.com/apexnodes; Discord — https://discord.gg/apexnodes; TikTok — https://www.tiktok.com/@apexnodes; YouTube — https://www.youtube.com/apexnodesxyz; GitHub — https://github.com/apexnodes-developers.\nFor news, promotions, updates — recommend subscribing. Do not promise specific dates."
+    },
+    {
+        "id": "script_hosting",
+        "title": "Script Hosting (bots and scripts)",
+        "keywords": [],
+        "content": "Script Hosting for scripts and bots with minimal resource usage. Location: Poland, Warsaw. Pterodactyl panel: https://panel.apexnodes.xyz\nSupported languages: Luvit, Bun, C#, Dart, Deno, Elixir, Go, Java, NodeJS, Nodemon, Python, Rust.\nPlans (USD/month): SCRIPT-1 ($0.25, 25% CPU, 256MB, 2.5GB, 5 ports, 5 DBs, 5 backups); SCRIPT-2 ($0.50, 50%, 512MB, 5GB); SCRIPT-3 ($1.00, 100%, 1024MB, 10GB); SCRIPT-4 ($2.00, 200%, 2048MB, 20GB).\nPanel login is the same as for game servers (email + password from billing).\nDatabases via phpMyAdmin: https://pma.apexnodes.xyz"
+    },
+    {
+        "id": "security_reputation",
+        "title": "Security and Reputation",
+        "keywords": [],
+        "content": "Autumn 2024 hack: incident caused by one employee. The only one since 2020. Compensation was provided, security was strengthened.\nThe leak contained only emails and dynamic IPs. Passwords are hashed. Game builds were not affected.\nAscory, Dertix — separate projects, legally not ApexNodes. Part of the team was involved in development."
+    },
+    {
+        "id": "server_activation",
+        "title": "Server Activation (Pending)",
+        "keywords": [],
+        "content": "The server is activated automatically. The activation process usually takes from a few seconds to an hour.\nIf there are problems activating a paid server — human intervention is required, do [ESCALATE]!\nIf this is the Game-Free plan — the server takes longer to activate due to load on the free nodes. Tell the client that the node is loaded and ask them to wait for activation on their own; there is no need to call staff for Game-Free activation."
+    },
+    {
+        "id": "transit_colocation",
+        "title": "IP Transit and Colocation (B2B)",
+        "keywords": [],
+        "content": "IP Transit: traffic transit via AS202831. Colocation: equipment placement in Moscow and Poland.\nWhen asked: politely confirm that we provide it, ask if they would like more details or a commercial quote.\nIf the client asks about prices, ports, or terms — immediately [ESCALATE]; these questions are discussed individually with the technical director."
+    },
+    {
+        "id": "vds_os_software",
+        "title": "VDS — Operating Systems and Software",
+        "keywords": [],
+        "content": "Available Linux OS: Ubuntu 24.04, 22.04, 20.04, 18.04; Debian 13, 12, 11, 10, 9; AlmaLinux 10.0, 9.x, 8.x; Rocky Linux 9, 8.4; CentOS 9 Stream, 8 Stream, 7; Fedora, OpenSUSE, Alpine Linux.\nWindows: Server 2025, 2022, 2019 (Evaluation versions).\nOne-Click Apps: ISPmanager, Plesk (CentOS/Alma/Windows), cPanel (CloudLinux/Alma/Ubuntu), WordPress on Plesk, Cloudron, OpenVPN, OpenClaw, NextCloud, GitLab, Jenkins, MariaDB, NGINX, Jitsi Meet.\nIf the required software is not available — the client can install it manually after a clean OS installation. Do not offer to install it for the client.\nDebian 12→13 update: https://wiki.apexnodes.xyz/virtualnye-servery/kak-obnovitsya-s-debian-12-bookworm-do-debian-13-trixie\nChanging DNS: edit /etc/resolv.conf. Instructions: https://wiki.apexnodes.xyz/virtualnye-servery/kak-izmenit-dns-servera-v-debian"
+    },
+    {
+        "id": "vds_overview",
+        "title": "VDS Virtual Servers — Overview and Management",
+        "keywords": [],
+        "content": "Two lines: VDS PROMO and VDS HI-CPU. Both are available in Russia and Poland.\nManagement via SolusVM: Poland — https://solusvm.apexnodes.xyz, Russia — https://solusvm.msk.sh.\nOS reinstallation: in the SolusVM panel, select the server → Reinstall → select the OS. All data will be deleted!\nVDS PROMO: Intel Xeon, DDR3/DDR4, NVMe, 1 Gbps.\nPROMO plans: VDS-PROMO-1 (1 vCPU, 2GB RAM, 32GB NVMe) — $1.54/month; VDS-PROMO-2 (2 vCPU, 4GB, 64GB) — $2.37; VDS-PROMO-3 (4 vCPU, 8GB, 128GB) — $4.05; VDS-PROMO-4 (8 vCPU, 16GB, 256GB) — $7.39; VDS-PROMO-5 (16 vCPU, 32GB, 512GB) — $14.08.\nVDS HI-CPU: DDR5, NVMe, 1 Gbps. In Russia — AMD Ryzen 9 5900X, in Poland — AMD Ryzen 7 7700X.\nHI-CPU plans: VDS-HI-CPU-1 (1 vCPU, 2GB, 32GB) — $3.32; VDS-HI-CPU-2 (2, 4GB, 64GB) — $5.64; VDS-HI-CPU-3 (4, 8GB, 128GB) — $10.28; VDS-HI-CPU-4 (8, 16GB, 256GB) — $19.56; VDS-HI-CPU-5 (16, 32GB, 512GB) — $38.12.\nPrices are the same for both locations; only the processors differ in HI-CPU.\nAll plans include DDoS protection and One-Click Apps.\nIf a plan is out of stock — it is temporarily sold out, advise to follow social media. Do not promise specific timeframes."
+    },
+    {
+        "id": "web_hosting",
+        "title": "Web Hosting (ISPmanager)",
+        "keywords": [],
+        "content": "Website hosting with the ISPmanager panel. Location: Poland, Warsaw. Login credentials are sent by email after payment.\nPlans (USD/month): WEB-1 ($0.25, 1 site, 1024MB, 1 DB, 2 FTP, 100GB traffic); WEB-2 ($0.50, 5 sites, 5120MB, 5 DBs, 10 FTP, 500GB); WEB-3 ($1.00, 10, 10240MB, 10 DBs, 20 FTP, 1000GB); WEB-4 ($2.00, 25, 5120MB, 25 DBs, 50 FTP, 2500GB); WEB-5 ($4.00, 50, 51200MB, 50 DBs, 100 FTP, 5000GB); WEB-6 ($8.00, 100, 102400MB, 100 DBs, 200 FTP, 10000GB).\nQuestions about website or domain configuration can be handled by support."
+    }
+]
